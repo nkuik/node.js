@@ -21,5 +21,8 @@
     "nodemon": "^1.12.1",
     "superagent": "^6.0.0",
     "supertest": "^4.0.2"
+  },
+  "jest" : {
+      "coverageDirectory": "./test-throwaway"
   }
 }
