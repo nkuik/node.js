@@ -1,0 +1,16 @@
+
+> week1-node@1.0.0 test
+> jest --runInBand --coverage
+
+  console.log
+    > Ready on http://localhost:3000
+
+      at Server.<anonymous> (src/backend/index.js:25:11)
+
+
+=============================== Coverage summary ===============================
+Statements   : 100% ( 9/9 )
+Branches     : 100% ( 0/0 )
+Functions    : 100% ( 3/3 )
+Lines        : 100% ( 9/9 )
+================================================================================

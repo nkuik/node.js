@@ -24,6 +24,5 @@
   },
   "jest" : {
     "coverageDirectory": "./test-throwaway",
-    "coverageReporters": ["lcov"]
   }
 }
