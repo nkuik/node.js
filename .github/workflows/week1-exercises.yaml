@@ -20,8 +20,8 @@ jobs:
       - run: cd week1/exercise-template && npm install && npm run build --if-present && npm test
 
       - name: Post test report
-        uses: romeovs/lcov-reporter-action@v0.2.16
         if: always()
+        uses: romeovs/lcov-reporter-action@v0.2.16
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          lcov-file: ./week1/exercise-template/test-throwaway/coverage/lcov.info
+          lcov-file: ./week1/exercise-template/test-throwaway/lcov.info

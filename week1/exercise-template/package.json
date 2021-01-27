@@ -23,6 +23,7 @@
     "supertest": "^4.0.2"
   },
   "jest" : {
-      "coverageDirectory": "./test-throwaway"
+    "coverageDirectory": "./test-throwaway",
+    "coverageReporters": ["lcov"]
   }
 }
