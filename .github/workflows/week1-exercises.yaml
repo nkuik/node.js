@@ -21,6 +21,7 @@ jobs:
 
       - name: Post test report
         uses: romeovs/lcov-reporter-action@v0.2.16
+        if: always()
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           lcov-file: ./week1/exercise-template/test-throwaway/coverage/lcov.info
